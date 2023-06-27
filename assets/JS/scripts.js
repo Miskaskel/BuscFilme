@@ -7,7 +7,7 @@ async function buscarFilmes() {
 
     // Verificação
     if (filme){
-        const url = `http://www.omdbapi.com/?s=${filme}&apikey=5db0e624`
+        const url = `http://www.omdbapi.com/?s=${filme}&apikey=5db0e624`;
         
         //Requisição na API
         const response = await fetch(url);
